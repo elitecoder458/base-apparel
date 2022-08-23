@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+html{
+    font-size: 62.5%;
+    color:hsl(0, 36%, 70%)
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+  height: 100%;
+}
+.grid-box{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.item1{
+    padding: 9rem 25rem 10rem 15rem
+}
+.logobox{
+    margin-bottom: 12rem;
+
+}
+.editor{
+    color: hsl(0, 6%, 24%);
+}
+.article h1{
+    font-size: 7rem;
+    letter-spacing: 2rem;
+    line-height: 7rem;
+    margin-bottom: 5rem;
+}
+.letters p{
+    font-size: 26px;
+    line-height: 3.5rem;
+    margin-bottom: 8rem;
+}
+input[type="email"] {
+width: 100%;
+padding: 2rem;
+border-radius: 40px;
+border: 1px solid hsl(0, 36%, 70%);
+position: relative;
+}
+a{
+    background-color: hsl(0, 93%, 68%);
+    width: 8%;
+    padding: 28px;
+    position: absolute;
+    border-radius: 40px;
+    margin-left: -72px;
+}
+.item2{
+    background-image: url(./images/hero-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
